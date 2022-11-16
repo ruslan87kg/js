@@ -1,0 +1,30 @@
+header {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1100px;
+  background-color: aqua;
+  color: black;
+  font-size: 34px;
+  border: 2px solid gray;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    width: 30%;
+    padding: 1em;
+  }
+  &__nav {
+    width: 65%;
+    color: red;
+  }
+}
+a {
+  text-decoration: none;
+}
+.nav__menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
